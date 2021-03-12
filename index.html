@@ -5,6 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather App</title>
 </head>
+
+<body>
+    <header class="container-fluid text-center text-black bg-dark p-3">
+        <h1>Here's What the Clouds are Doing</h1>
+    </header>
+
+    <div class="container-fluid"> 
+            <div class="row">
+                <div class="col-3">
+                    <h4>Search for a City:</h4>
+                    <div class="form">
+                        <input class="form-control" type="text" id="search-result" />
+                        <button class="btn" id="search-button"></button>
+                    </div>
+                    <ul class="list-search history"></ul>
+                </div>
+            </div>
+    </div>
+</body>
